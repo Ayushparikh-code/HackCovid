@@ -9,15 +9,35 @@
         }
 
         h1 {
-            background-image: url("rosepetals.jpg");
+            background-image: url("../static/rose1.jpg");
             background-size: cover;
+            color: rgb(44, 2, 2);
         }
 
         body {
             background-color: #ffe9e9;
             font-size: 150%;
         }
-
+        .nav{
+            width:initial;
+            height: 60px;
+            display: flex;
+            flex: 1;
+            align-items: center;
+            background: rgba(240, 128, 128, 0.151);
+            padding: 0 150px;
+            box-sizing: border-box;
+            margin-left: 750px;
+        }
+        nav a{
+            text-decoration:rgba(240, 128, 128, 0.411);
+            color: #fff;
+            font-size: 25px;
+            font-weight: bold;
+            text-emphasis:inherit;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-left: 100px;
+        }
         table {
             border-collapse: collapse;
             width: 100%;
@@ -53,6 +73,12 @@
 </head>
 
 <body data-new-gr-c-s-check-loaded="14.1020.0" data-gr-ext-installed="">
+    
+    <nav class="nav">
+        <a href="/" target="_blank" style="color:black" class="padding4">HOME</a>
+        <a href="/index" target="_blank" style="color:black" class="padding4">COVID DECTECTOR</a>
+        <a href="/faq" target="_blank" style="color:black">FAQ</a>
+    </nav>
     <h1 class="padding3" style="text-align:center;font-size:200%">DO'S AND DON'Ts OF COVID-19</h1>
     <table id="List">
         <tbody>
@@ -96,11 +122,6 @@
         </tbody>
     </table>
 
-    <nav>
-        <a href="home.html" target="_blank" style="color:black" class="padding4">Home</a>
-        <a href="index.html" target="_blank" style="color:black" class="padding4">Covid-19 Probability Detector</a>
-        <a href="index.html#faq" target="_blank" style="color:black">Faq</a>
-    </nav>
 
 
 

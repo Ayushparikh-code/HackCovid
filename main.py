@@ -1,15 +1,51 @@
 from flask import Flask, render_template, request
-app = Flask(__name__)
 import pickle
 
 
+app = Flask(__name__, template_folder='templates')
 # open a file, where you stored the pickled data
 file = open('model.pkl' , 'rb')
 clf = pickle.load(file)
 file.close()
 
-@app.route('/', methods=["GET", "POST"])
-def hello_world():
+
+@app.route('/')
+def home():
+    return render_template('home.html')
+
+@app.route('/index')
+def index():
+    return render_template('index.html')
+
+@app.route('/breathe')
+def breathe():
+    return render_template('breathe.html')
+
+
+@app.route('/dos')
+def dos():
+    return render_template('dos.html')
+
+@app.route('/faq')
+def faq():
+    return render_template('faq.html')
+
+
+@app.route('/map')
+def map():
+    return render_template('map.html')
+
+@app.route('/show')
+def show():
+    return render_template('show.html')
+
+
+@app.route('/yoga')
+def yoga():
+    return render_template('yoga.html')
+
+@app.route('/predict', methods=["GET", "POST"])
+def predict():
     if request.method == "POST":
         myDict = request.form
         fever = float(myDict["fever"])
@@ -23,7 +59,7 @@ def hello_world():
         print(infProb)
     
         return render_template('show.html' , inf=round(infProb*100))
-    return render_template('index.html')
+    return render_template('show.html')
 
 @app.route("/about_us")
 def about_us():
