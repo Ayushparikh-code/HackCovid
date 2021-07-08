@@ -61,6 +61,8 @@ html{
 .nav-item{
     margin-top: 25px;
     margin-left: 50px;
+    font-size: 50px;
+    border: turquoise;
 }
 .main-heading{
     font-weight: normal;

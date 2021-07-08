@@ -11,7 +11,7 @@ file.close()
 
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('landing.html')
 
 @app.route('/index')
 def index():
@@ -39,6 +39,9 @@ def map():
 def show():
     return render_template('show.html')
 
+@app.route('/donation')
+def donation():
+    return render_template('donation.html')
 
 @app.route('/yoga')
 def yoga():
