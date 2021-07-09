@@ -127,6 +127,6 @@ section .hero-sec .caption h3{
 section .hero-sec .caption .description{
     margin: 25px 0;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
 }
