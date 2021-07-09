@@ -52,10 +52,10 @@ section{
     margin-right: 1px;
 }
 .header .nav-bar .menu ul li a{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
     margin-left: 100px
     text-transform: capitalize;
