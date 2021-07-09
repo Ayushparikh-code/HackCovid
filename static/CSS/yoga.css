@@ -13,7 +13,7 @@ html{
 }
 
 .main-header{
-    background: url(../static/images/yoga/yooga.jpg);
+    background: url(../images/yoga/yooga.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

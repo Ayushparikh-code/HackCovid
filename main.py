@@ -43,9 +43,26 @@ def show():
 def donation():
     return render_template('donation.html')
 
+@app.route('/login')
+def login():
+    return render_template('login.html')
+
+@app.route('/signup')
+def signup():
+    return render_template('signup.html')
+
 @app.route('/yoga')
 def yoga():
     return render_template('yoga.html')
+
+@app.route('/feedback')
+def feedback():
+    return render_template('feedback.html')
+
+
+@app.route('/accountconfig')
+def accountconfig():
+    return render_template('accountconfig.html')
 
 @app.route('/predict', methods=["GET", "POST"])
 def predict():
