@@ -11,7 +11,13 @@
 <p>Relive provides user an adequate awareness for COVID‐19 outbreak and its preventive measures. There have been so many advancements made in the field of health sector but there is a large part unaltered. So the main objective of this hack is to automate and simplify Covid testing and awareness at the user end with the maximum possible ways to recover themselves.</p>
   
 ### Features
-<ul><li>Home Page: Awareness on how covid spread and how to take necessary preventions <li></li>Volunteer Help: Lets people voluntarily help a covid positive people by donating them <li></li>Covid Case Tracker: A volunteer-driven crowdsourced effort to track the coronavirus in India <li></li>Covid Test: ML-based covid predictor, where users can regularly test. <li></li>Breathe Pacer: Anti-Stress Maximum Relaxation 6. Yoga: Helps to fight users against bad times. <li></li>Do’s And Don’ts: Keep you away from don’ts and motivate to work on Dos. </li>
+<ul>
+  <li>Home Page: Awareness on how covid spread and how to take necessary preventions </li>
+  <li>Volunteer Help: Lets people voluntarily help a covid positive people by donating them </li>
+  <li>Covid Case Tracker: A volunteer-driven crowdsourced effort to track the coronavirus in India </li>
+  <li>Covid Test: ML-based covid predictor, where users can regularly test.</li>
+  <li>Breathe Pacer: Anti-Stress Maximum Relaxation 6. Yoga: Helps to fight users against bad times. </li>
+  <li>Do’s And Don’ts: Keep you away from don’ts and motivate to work on Dos. </li>
 </ul>
 
 ### Med Chatbot
