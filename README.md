@@ -24,7 +24,7 @@
 <p> ChatBOT: Your Health Buddy. Advance bot where users can feel as they are chatting with Dr. <br> Github: https://github.com/aakriti1318/med-chatbot</p>
 
 ### Tech Stack
-Machine learning (random forest classifier), Python, Flask, HTML, CSS, Javascript and Bootstrap.
+Machine learning, Python, Flask, HTML, CSS, Javascript and Bootstrap.
 
 ## Teammates
 <table>
